@@ -92,11 +92,14 @@ button {
   letter-spacing: 0.04em;
   color: var(--white);
   background: var(--iris);
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background: var(--ocean);
+  background-color: var(--ocean);
 }
 
 .logo {
@@ -150,4 +153,20 @@ button {
   line-height: 1.11;
   text-align: center;
   color: var(--navy-blue);
+}
+
+/* Social style */
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--iris);
+
+  width: 40px;
+  height: 40px;
+}
+
+.icon {
+  color: #f4f4fd;
 }

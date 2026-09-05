@@ -18,3 +18,21 @@
 }
 .features-text {
 }
+
+.features-wrapper {
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+
+  margin-bottom: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--cloud);
+}
+
+.features-icon {
+}
