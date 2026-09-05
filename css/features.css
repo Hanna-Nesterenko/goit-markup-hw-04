@@ -1,0 +1,20 @@
+.features {
+}
+
+.features-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.features-item {
+  width: calc((100% - 24px * 3) / 4);
+}
+.features-subtitle {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+}
+.features-text {
+}
